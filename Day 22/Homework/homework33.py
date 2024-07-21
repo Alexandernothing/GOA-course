@@ -1,0 +1,14 @@
+comparision1 = 5 > 2.5
+comparision2 = 7896353830 > 999900009992
+comparision3 = 9 < 9.1
+comparision4 = 10 < 10.00
+comparision5 = 35 == 35.000000000000000000
+comparision6 = 63.1 == 63.11
+comparision7 = 25 != 26
+comparision8 = 80 != 80
+comparision9 = 2 >= 2
+comparision10 = 4 >= 1
+comparision11 = 8 >= 10
+comparision12 = 78 <= 78.00
+comparision13 = 21 <= 89
+comparision14 = 12 <= 11.9
