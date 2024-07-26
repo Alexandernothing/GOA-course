@@ -1,0 +1,21 @@
+button {
+    background-color: cyan;
+    color: brown;
+}
+h2 {
+    text-align: center;
+    color: lightcoral;
+}
+
+label {
+    color: rgba(35, 54, 176, 0.408);
+
+}
+input{
+    background-color: violet;
+    color:black
+}
+textarea {
+    background-color: violet;
+    color: black;
+}

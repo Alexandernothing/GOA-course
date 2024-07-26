@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    color:hsl(hue, saturation, lightness);
+}
+a {
+    text-size-adjust: medium;
+    text-align: end;
+    color:darkslategrey
+}

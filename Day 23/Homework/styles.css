@@ -1,0 +1,17 @@
+h1 {
+    text-align: left;
+
+}
+h2 {
+    text-align: center;
+    color: orangered;
+}
+h3 {
+    text-align: end;
+    color: cornflowerblue;
+}
+p {
+    color: darkgreen;
+    text-size-adjust: small;
+}
+
