@@ -1,0 +1,42 @@
+body {
+    background-image: url('sign up background image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;
+}
+
+.first2 label {
+    color: blue;
+    font-size: xx-large;
+}
+
+.first2 input {
+    background-color: red;
+
+}
+
+.second2 label {
+    color: red;
+    font-size: xx-large;
+}
+
+.second2 input {
+    background-color: blue;
+
+}
+
+#button label {
+    color:rgba(20, 17, 17, 0.605);
+    font-size: xx-large;
+
+}
+
+#button input {
+    background-color: yellow;
+    width: 5%;
+    padding: 5px;
+    font-size: 10px;
+}
+
+#email {
+    width: 20%;
+    padding: 4px;
+    font-size: 18px;
+}
