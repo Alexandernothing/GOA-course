@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    font-size: 300px;
+    color: #7cfc00;
+}
+
+div {
+    font-size: 200px;
+}
+
+p {
+    font-size: 50%;
+    color: rgb(0, 255, 255);
+}

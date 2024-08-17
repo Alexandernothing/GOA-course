@@ -1,0 +1,39 @@
+p {
+    color: rgb(255, 0, 0);
+}
+
+#green {
+    color: rgb(0, 255, 0);
+}
+
+#pink {
+    color: rgb(255, 192, 203);
+}
+
+#yellow {
+    color: rgb(255, 255, 0);
+}
+
+#blue {
+    color: rgb(0, 0, 255);
+}
+
+#black {
+    color: #000000;
+}
+
+#orange {
+    color: #ffa500;
+}
+
+#brown {
+    color: #a52a2a;
+}
+
+#grey {
+    color: #808080;
+}
+
+#gold {
+    color: #ffd700;
+}

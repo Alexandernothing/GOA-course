@@ -1,0 +1,41 @@
+/*
+p {
+    color: rgb(255, 0, 0);
+}
+
+#p1 {
+    color: rgb(0, 255, 0);
+}
+
+#p2 {
+    color: rgb(0, 0, 255);
+}
+
+#p3 {
+    color: rgb(251, 178, 190);
+}
+
+#p4 {
+    color: rgb(249, 249, 10);
+}
+*/
+
+p {
+    color: #FF0000;
+}
+
+#p1 {
+    color: #00FF00;
+}
+
+#p2 {
+    color: #0000FF;
+}
+
+#p3 {
+    color: #FFC0CB;
+}
+
+#p4 {
+    color: #FFFF00;
+}
