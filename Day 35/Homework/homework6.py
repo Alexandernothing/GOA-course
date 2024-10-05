@@ -1,0 +1,1 @@
+user_info = int(input("How old are you?"))

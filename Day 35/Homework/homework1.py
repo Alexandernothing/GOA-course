@@ -1,0 +1,1 @@
+print(type("Hello, World!"))    #ეს კოდი გამოიტანს stringს რადგან print(type) ამოწმებს მონაცემის ტიპს, ხოლო "Hello, World!" არის stirng(str)
