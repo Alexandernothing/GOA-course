@@ -1,0 +1,9 @@
+div {
+    width: 1000px;
+    height: 1000px;
+}
+
+div img {
+    height: 12.5%;
+    width: 12.5%;
+}

@@ -1,0 +1,14 @@
+div {
+    height: 700px;
+    width: 1000px;
+}
+
+body {
+    background-color: darkblue;
+}
+
+div div{
+    color: yellow;
+    width: 50%;
+    height: 50%;
+}

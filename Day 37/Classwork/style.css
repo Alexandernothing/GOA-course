@@ -1,0 +1,12 @@
+div {
+    width: 70%;
+}
+
+div div {
+    width: 50%;
+    font-size: 100px;
+}
+
+p {
+   font-size: 20%;
+}

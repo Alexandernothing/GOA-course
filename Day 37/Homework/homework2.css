@@ -1,0 +1,14 @@
+div {
+    height: 700px;
+    width: 1000px;
+}
+
+body {
+    background-color: black;
+}
+
+div div{
+    height: 175px;
+    width: 250px;
+    color:red
+}
