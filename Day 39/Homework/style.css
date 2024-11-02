@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@300&display=swap');
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+}
+
+.h2p5{
+    font-family: "Itim", cursive;
+    color: aqua;
+}
+
+.h2p4{
+    font-family: "Rubik Wet Paint", system-ui;
+    color: darkred;
+}
+
+.h2p3{
+    font-family: "Tiny5", sans-serif;
+    color: darkgoldenrod;
+}
+
+.h2p2{
+    font-family: "Danfo", serif;
+    color: black;
+}
+
+.h2p1{
+    font-family: "Playwrite AU TAS", cursive;
+    color: #4B2E2E;
+}
