@@ -1,0 +1,1 @@
+print("Codewarsebi maq gaketebuli")
