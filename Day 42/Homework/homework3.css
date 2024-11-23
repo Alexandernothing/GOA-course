@@ -1,0 +1,7 @@
+table, td, th{
+    padding: 5px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    border-style: dotted;
+}
+

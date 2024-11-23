@@ -1,0 +1,24 @@
+table, td, th{
+    padding: 20px;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 10px solid darkgoldenrod;
+    border-style: double;
+}
+
+td:nth-child(even){
+    background-color: black;
+    color: white;
+    text-decoration: wavy overline;
+}
+
+td:nth-child(odd){
+    background-color: darkred;
+    color: darkblue;
+    text-decoration: wavy underline;
+}
+
+th{
+    background-color: deeppink;
+    color: fuchsia;
+}
