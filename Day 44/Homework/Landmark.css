@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+body{
+    background: linear-gradient(135deg, #F1C40F, #F39C12, #E67E22);
+
+}
+
+p{
+    color:#2C3E50;
+    font-size: large;
+    font-family:"Hachi Maru Pop", cursive;
+}
+
+a{
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BDC3C7;
+    text-decoration: underline;
+}
+
+#a1, #a2, #a4{
+    color: #34495E;
+    font-size: large;
+    font-family: "Hachi Maru Pop", cursive;}
+
+#a1:hover{
+    color: #1ABC9C;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family:"Hachi Maru Pop", cursive ;
+}
+
+#a2:hover{
+    color: #1ABC9C;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+
+
+#a4:hover{
+    color: #1ABC9C;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Hachi Maru Pop", cursive;
+}

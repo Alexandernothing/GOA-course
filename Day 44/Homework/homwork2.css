@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+body{
+    background: linear-gradient(135deg, #4facfe, #8f94fb);
+}    
+
+
+p{
+    color: #F5F5F5;
+    font-size: large;
+    font-family: "Yuji Mai", serif;
+}
+
+a{
+    color: #FFC107;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #002884;
+    text-decoration: underline;
+}
+
+#a1, #a2, #a4{
+    color: #A1A1A1;
+    font-size: large;
+    font-family: "Yuji Mai", serif;
+}
+
+#a1:hover{
+    color: #FF6F61;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Yuji Mai", serif;
+}
+
+#a2:hover{
+    color: #FF6F61;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Yuji Mai", serif;
+}
+
+#a4:hover{
+    color: #FF6F61;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Yuji Mai", serif;
+}

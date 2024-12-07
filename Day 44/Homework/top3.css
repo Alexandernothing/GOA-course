@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=New+Rocker&display=swap');
+
+body{
+    background-color: black;
+}
+
+img{
+    width: 500px;
+}
+
+p{
+    color: white;
+    font-family:"New Rocker", system-ui;
+    font-size: large;
+}
+
+a{
+    color: lightgreen;
+    text-decoration: none;
+    font-size: large;
+    font-family: "New Rocker", system-ui;
+}
+
+#a1:hover{
+    color: pink;
+    text-decoration: underline solid cyan;
+    font-size: larger;
+    font-family:"New Rocker", system-ui;
+    transition: 0,5ms;
+}
+
+#a2:hover{
+    color: pink;
+    text-decoration: underline solid cyan;
+    font-size: larger;
+    font-family:"New Rocker", system-ui;
+    transition: 0,5ms;
+}
+
+#a4:hover{
+    color: pink;
+    text-decoration: underline solid cyan;
+    font-size: larger;
+    font-family:"New Rocker", system-ui;
+    transition: 0,5ms;
+}

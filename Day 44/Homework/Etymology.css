@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background: linear-gradient(135deg, #4facfe, #00c6ff);
+}
+
+p{
+    font-size: large;
+    color: #333333;
+    font-family: "Oswald", sans-serif;
+}
+
+a{
+    color: #F1C40F;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+}
+
+a:hover{
+    color: #1ABC9C;
+    text-decoration: underline;
+    font-family: "Oswald", sans-serif;
+}
+
+#a1, #a2, #a4{
+    color: #2F3A50;
+    font-size: large;
+    font-family: "Oswald", sans-serif;}
+
+#a1:hover{
+    color: #FFB6B9;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Oswald", sans-serif;
+}
+
+#a2:hover{
+    color: #FFB6B9;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Oswald", sans-serif;
+}
+
+
+#a4:hover{
+    color: #FFB6B9;
+    transition: 0,5ms;
+    font-size: larger;
+    font-family: "Oswald", sans-serif;
+}

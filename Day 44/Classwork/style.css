@@ -1,0 +1,19 @@
+#ul1{
+    list-style-type: disc;
+}
+
+#ul2{
+    list-style-type: circle;
+}
+
+#ul3{
+    list-style-type: decimal-leading-zero;
+}
+
+#ul4{
+    list-style-type: georgian;
+}
+
+#ul5{
+    list-style-type: lower-alpha;
+}
