@@ -1,0 +1,13 @@
+ul{
+    list-style: square;
+    color: cadetblue;
+}
+
+input{
+    border-radius: 10px;
+}
+
+input:hover{
+    border-width: 50px;
+}
+

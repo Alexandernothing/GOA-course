@@ -1,0 +1,23 @@
+input[type='text']{
+    border: red;
+    border-width: 100px;
+    border-style: double;
+    outline: none;
+}
+
+input[type='password']{
+    color: brown;
+    background-color: aquamarine;
+    border-style: dashed;
+    outline: none;
+}
+
+input[type='email']{
+    border: none;
+    outline: none;
+}
+
+label{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
