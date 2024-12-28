@@ -1,0 +1,18 @@
+#div1{
+    background-color: black;
+    color: white;
+    
+}
+
+#div2{
+    background-color: brown;
+}
+
+#div3{
+    background-color: blue;
+}
+
+#div{
+    display: flex;
+    justify-content: space-evenly;
+}

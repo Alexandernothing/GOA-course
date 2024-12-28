@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header{
+    border-bottom: 5px solid black;
+}
