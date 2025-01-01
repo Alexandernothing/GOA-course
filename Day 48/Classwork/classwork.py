@@ -1,0 +1,1 @@
+print("Codewars ები გავაკეთე")
