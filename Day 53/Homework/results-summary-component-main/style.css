@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: "Hanken Grotesk", serif;
+    background-color: #ecf2ff;
+}
+
+.big_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    background-color: #5d3efb;
+    border-radius: 23px;
+    height: 420px;
+    width: 310px;
+
+}
+
+.header1{
+    text-align: center;
+    color: #cac4ff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 27px;
+}
+
+.main1{
+    text-align: center;
+    background-color: #4734ee;
+    margin-left: 70px; 
+    margin-right: 70px;  
+    margin-top: 27px;  
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 170px;
+}
+
+.main1 h1{
+    color: #fff;
+    font-size: 65px;
+}
+
+.main1 p{
+    color: #fff;
+    opacity: 35%;
+    font-size: 16px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer1 h2{
+    color: #fff;
+    font-size: 29px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.footer1 p{
+    color: #fff;
+    font-size: 15px;
+    opacity: 60%;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.div2{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 0px, 23px;
+        height: 420px;
+        width: 310px;
+        border-radius: 0 23px 23px 0;
+}
+    

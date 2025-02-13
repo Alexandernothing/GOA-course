@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 70px;
+    border: 2px solid red;
+}
+
+#d2{
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+#d3{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#d4{
+    position: relative;
+    left: 180px;
+    top: 30px;
+}
+
+#d5{
+    position: relative;
+    left: 240px;
+    top: 40px;
+}
+
+#d6{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+#d7{
+    position: relative;
+    left: 240px;
+    top: 60px;
+}
+
+#d8{
+    position: relative;
+    left: 180px;
+    top: 70px;
+}
+
+#d9{
+    position: relative;
+    left: 120px;
+    top: 80px;
+}
+
+#d10{
+    position: relative;
+    top: 90px;
+}
