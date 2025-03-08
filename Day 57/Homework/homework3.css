@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: darkgreen;
+}
+
+div:hover{
+    transform: scale(1.5);
+    transition: scale, 1s;
+    border-radius: 50%;
+    transition: border-radius, 0.6s;
+    background-color: blue;
+    transition: background-color, 0.5s;
+    box-shadow: 0px 0px 5px 5px color rgb(52, 158, 244);
+}
+
+div:active{
+    transform: rotate(720deg);
+    transition: rotate, 0.7s;
+    border-radius:30px;
+    background-color: purple;
+    box-shadow: 5px 5px 0px 0px color plum;
+}

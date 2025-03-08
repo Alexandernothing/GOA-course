@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+div:hover{
+    transform: rotate(1480deg) scale(1.5);
+    transition: 5s;
+}
+
+div:active{
+    transform: scale(0.5) rotate(-1480deg);
+    background-color: red;
+}

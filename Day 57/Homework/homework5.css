@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+p{
+    visibility: hidden;
+}
+
+div:hover{
+    transform: scale(1.5);
+}
+
+div:active{
+    background-color: green;
+    transition: background-color, 0.4s;
+    transform: rotateY(360deg);
+}
+
+p:active{
+    visibility: visible;
+    color: white;
+}
