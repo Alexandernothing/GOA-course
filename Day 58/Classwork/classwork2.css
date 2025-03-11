@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    animation-name: myAnimation;
+    animation-iteration-count: infinite;
+    background-color: black;
+    color: white;
+    animation-duration: 2s;
+}
+
+@keyframes myAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

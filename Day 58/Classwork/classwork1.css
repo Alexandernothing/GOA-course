@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation{
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}

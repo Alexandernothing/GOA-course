@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    animation-name: myAnimation;
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes myAnimation{
+    0%{
+        transform: scale(1);
+        background-color: blue;
+    }
+
+    50%{
+        transform: scale(0.5);
+        background-color: red;
+    }
+
+    100%{
+        transform: scale(1.5);
+        background-color: purple;
+    }
+}

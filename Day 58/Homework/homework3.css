@@ -1,0 +1,15 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation-name: myAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes myAnimation{
+    0%{transform: translateX(0px) ;}
+    
+    100%{transform: translateX(500px);}
+}
