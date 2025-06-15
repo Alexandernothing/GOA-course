@@ -1,4 +1,3 @@
-
 item_to_buy = int(input("How much does your item to buy cost?: "))
 budget = int(input("Enter your budget: "))
 

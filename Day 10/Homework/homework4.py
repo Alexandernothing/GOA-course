@@ -1,4 +1,3 @@
-
 ticket_price = 10
 tickets_to_buy = int(input("How many tickets do you want?: "))
 

@@ -1,5 +1,3 @@
-
-
 num = float(input("Enter any number: "))
 
 if num >= 5:
