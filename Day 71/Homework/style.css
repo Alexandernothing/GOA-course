@@ -350,5 +350,5 @@ header ul {
 .txt4{
     display: flex;
     flex-direction: column;
-    jus
+    justify-content: center;
 }
