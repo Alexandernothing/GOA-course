@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #f5f5f5;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.big-div{
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-template-rows: repeat(2, 400px);
+    justify-content: center;
+    align-content: center;
+    gap: 45px;
+}
+
+.first-div{
+    background-color: #733fc8;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 40px;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 100px;
+    box-shadow: 20px 20px 200px grey;
+}
+
+.pfp1{
+    display: flex;
+    gap: 25px;
+}
+
+.pfp1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.header-txt1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.op{
+    opacity: 50%
+}
+
+
+h1{
+    opacity: 90%;
+    font-size: 21px;   
+    font-weight: 500;
+    font-weight: 500;
+}
+
+.footer-txt1{
+    font-size: 16px;
+    opacity: 90%;
+}
+
+.second-div{
+    background-color: #49556b;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 300px;
+    width: 275px;
+    margin: 60px 0px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 20px 20px 200px grey;
+}
+
+.pfp2{
+    display: flex;
+    gap: 25px;   
+}
+
+.pfp2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h2{
+    opacity: 90%;
+    font-size: 21px;   
+    font-weight: 500;
+    font-weight: 500;
+}
+
+.footer-txt2{
+    font-size: 16px;
+    opacity: 90%;
+}
+
+.third-div{
+    background-color: #fff;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 635px;
+    width: 275px;
+    margin: 60px 0px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 55px;
+    box-shadow: 20px 20px 200px grey;
+}
+
+.pfp3{
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+.pfp3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h5{
+    font-size: 21px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.footer-txt3{
+    font-size: 15px;
+    opacity: 80%;
+    font-weight: 500;
+}
+
+.fourth-div{
+    background-color: #fff;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 300px;
+    width: 275px;
+    margin: 0px 100px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 55px;
+    box-shadow: 20px 20px 200px grey;
+}
+
+.pfp4{
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+.pfp4 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h3{
+    font-size: 21px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.footer-txt4{
+    font-size: 15px;
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.fifth-div{
+    background-color: #191f2d;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 300px;
+    width: 600px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 55px;
+    box-shadow: 20px 20px 200px grey;
+}
+
+.pfp5{
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+.pfp5 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h4{
+    font-size: 21px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.footer-txt3{
+    font-size: 15px;
+    opacity: 80%;
+    font-weight: 500;
+}
