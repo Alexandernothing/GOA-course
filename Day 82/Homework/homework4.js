@@ -4,9 +4,9 @@ let a = "a"
 const b = "b"
 var c = "c"
 
-let a = "bbyb"
-const b = "ndnn"
-var c = "e2e3e"
+a = "bbyb"
+b = "ndnn"
+c = "e2e3e"
 
 console.log(a)
 console.log(b)
