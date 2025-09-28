@@ -1,12 +1,12 @@
 // 11. მომხმარებელს შემოატანინე თვე (რიცხვი 1–12) და გამოიტანე რომელი თვე და სეზონია.
 
-let month = Number(prompt("Enter any month(use numbers 1-12): "))
+else if(month == 2) {
+    console.log("February, Winter")let month = Number(prompt("Enter any month(use numbers 1-12): "))
 
 if(month == 1) {
     console.log("January, Winter")
 }
-else if(month == 2) {
-    console.log("February, Winter")
+
 }
 else if(month == 3) {
     console.log("March, Spring")
