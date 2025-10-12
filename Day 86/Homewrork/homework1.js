@@ -4,7 +4,7 @@
 
 let num = Number(prompt("Enter any number: "))
 
-if(num % 2 == 0 && num % 2 != 0) {
+if(num % 2 == 0 && num % 5 != 0) {
     console.log("The number is even and it isn't multiple of five")
 }
 else{
