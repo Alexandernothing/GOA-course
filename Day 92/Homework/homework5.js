@@ -1,0 +1,16 @@
+/* 5. მოცემული გაქვთ სია: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
+მომხმარებელს შემოატანინეთ ორი რიცხვი. შემოტანილი რიცხვებიდან, ყველაზე პატარა რიცხვი, რომელიც იქნება,  იმ რიცხვიდან გამოიტანეთ მეორე რიცხვის ჩათვლით ყველა ელემენტი, ინდექსების მიხედვით.
+*/
+let list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
+let num1 = Number(prompt("Enter any number: "))
+let num2 = Number(prompt("Enter any number: "))
+
+if(num1 > num2) {
+    console.log(list.slice(num2, nu1 + 1))
+}
+else if(num1 === num2 ) {
+    console.log(list.slice(num1, num2 + 1))
+}
+else{
+    console.log(list.slice(num1, num2 + 1))
+}
