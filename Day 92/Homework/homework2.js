@@ -3,7 +3,7 @@
 let list = [10, 20, 30, 100, 40, 'Goa' ]
 let user = prompt("Enter any text: ")
 
-for(let i = 0;i < list.length - 1;i++) {
+for(let i = 0;i < list.length;i++) {
     if(user == list[i]) {
         console.log("Your word is in the list")
     }

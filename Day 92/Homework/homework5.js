@@ -6,10 +6,7 @@ let num1 = Number(prompt("Enter any number: "))
 let num2 = Number(prompt("Enter any number: "))
 
 if(num1 > num2) {
-    console.log(list.slice(num2, nu1 + 1))
-}
-else if(num1 === num2 ) {
-    console.log(list.slice(num1, num2 + 1))
+    console.log(list.slice(num2, num1 + 1))
 }
 else{
     console.log(list.slice(num1, num2 + 1))
