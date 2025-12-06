@@ -1,6 +1,6 @@
 // 4. შექმენით სია, სადაც ეწერება ამ ჯგუფის მოსწავლეების სახელები.  დააჯგუფეთ ლუწ ინდექსზე მდგომი სახელები ცალკე და კენტ ინდექსზე მდგომი სახელები ცალკე.
 
-let Goa19_20 = ["Aleqsandre", "Aleqsandre", "Giorgi", "Giorgi", "Iakobi", "Luka", "Luka", "Mate", "Nika", "Zuka"]
+let Goa19_20 = ["Aleqsandre", "Aleqsandre", "Giorgi", "Giorgi", "Iakobi", "Luka", "Luka", "Mate", "Nika", "Zuka", "Levani"]
 let even = []
 let odd = []
 
