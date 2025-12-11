@@ -10,6 +10,7 @@ for(let i = 0;i < list.length;i++) {
 
     for(let index = 0;index < list[i].length;index++) {
         result += list[i][index] * 2 ** lastindex
+        lastindex--
     }
     empty.push(result)
 }
