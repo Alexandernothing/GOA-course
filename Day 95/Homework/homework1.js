@@ -2,7 +2,7 @@
 
 function palindrome(a) {
     let reversed = ""
-    for(let i = a.length - 1;i >= 0;i--) {
+    for(let i = a.length - 1;i >= 0; i--){
         reversed += a[i]
     }
     if(a === reversed) {
@@ -14,3 +14,4 @@ function palindrome(a) {
 }
 
 console.log(palindrome("lokingl"))
+console.log(palindrome("lol"))
