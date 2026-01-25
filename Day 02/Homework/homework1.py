@@ -1,2 +1,2 @@
-print("I think that GOA is the best academy in whole Georgia. In this academy you will learn everything you need to know abot programming. MR. Nika Keshelava is the best teacher that you can ever have and mentors are very good too. All the best to GOA")
+print("I think that GOA is the best academy in whole Georgia. In this academy you will learn everything you need to know about programming. MR. Nika Keshelava is the best teacher that you can ever have and mentors are very good too. All the best to GOA")
 print("I've met Nika Keshelava (my teacher) and Nika Gelenidze (my mentor)")
