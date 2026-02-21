@@ -8,14 +8,13 @@ let object = {
     num4: 4,
     num5: 5
 }
-let userNum = Number(prompt("Enter any num: "))
+let userNum = prompt("Enter any num: ")
 
-for(let i in object) {
-    if(object[i] === userNum) {
-        console.log(object[i])
-    }
-    else {
-        object.num6 = userNum
-        console.log(object)
-    }
+if(userNum in object) {
+    console.log(object[userNum])
+}
+else {
+    let value = prompt("Enter any value: ")
+    object[userNum] = value
+    console.log(object)
 }
