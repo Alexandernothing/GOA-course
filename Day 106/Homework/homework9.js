@@ -42,4 +42,6 @@ switch(day) {
         break
 }
 
-// ternary operator??
+// ternary operator
+
+day === "monday" ? console.log(amount - amount * 5 / 100) : day === "tuesday" ? console.log(amount - amount * 10 / 100) : day === "wednesday" ? console.log(amount - amount * 15 / 100) : day === "thursday" ? console.log(amount - amount * 20 / 100) : day === "wednesday" ? console.log(amount - amount * 25 / 100) : day === "saturday" ? console.log(amount - amount * 50 / 100) : day === "sunday" ? console.log(amount - amount * 50 / 100) : console.log("Invalid inputs")

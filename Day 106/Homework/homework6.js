@@ -3,4 +3,4 @@
 let num = 1000
 let Status = prompt("Enter your status:")
 
-Status === "student" ? console.log(1000 - 1000 * 20 / 100) : console.log(1000 - 1000 * 5 / 100)
+Status === "student" ? console.log(1000 + 1000 * 20 / 100) : console.log(1000 + 1000 * 5 / 100)
