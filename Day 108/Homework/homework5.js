@@ -4,12 +4,10 @@ function even(a) {
     let count = 0
 
     for (let i of a) {
-        i + Number(i) === Number(i) + Number(i) ? (Number(i) % 2 === 0 ? count++ : null) : null
+        Number(i) % 2 === 0 ? count++ : count += 0
     }
 
     return count
 }
 
-console.log(even("iub122"))
-
-// ?
+console.log(even("Hellohiim87654myfsvode5432456"))
