@@ -4,7 +4,7 @@ let words = ["apple", "car", "phone", "moon", "tale", "universe", "hyperactive"]
 let longest = words[0]
 
 for(let i = 1;i < words.length;i++) {
-  if (words[i].length > longest.length) {
+  if(words[i].length > longest.length) {
     longest = words[i]
   }
 }
