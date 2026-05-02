@@ -22,23 +22,23 @@ let bankAccount = {
     _balance: prompt("Enter your bank balance:"),
     deposit: function(amount) {
         if(amount > 0) {
-            return `You have deposited ${amount}`
             this._balance += amount
+            return `You have deposited ${amount}`
         }
         else {
             return "Deposit done unsuccessfuly"
         }
     },
     withdraw: function(amount) {
-        if(amount < balance ) {
-            return `You have withdrawed ${amount}`
+        if(amount < this._balance ) {
             this._balance = this._balance - amount
+            return `You have withdrawed ${amount}`
         }
         else {
             return "Withdraw done unsuccessfuly"
         }
     },
-    get balance() {
+    get total() {
         return this._balance
     }
 }

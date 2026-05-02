@@ -20,20 +20,16 @@ let obj = {
         { name: "banana", price: 3, qty: 4 },
         { name: "milk", price: 6, qty: 1 }
     ],
-
-    addItem: function(product) {
+    add: function(product) {
         this._items.push(product)
     },
-
-    removeItem: function(index) {
+    remove: function(index) {
         this._items.splice(index, 1)
     },
-
     clear: function() {
         this._items = []
     },
-
-    get totalPrice() {
+    get total() {
         let total = 0
 
         for(let i of this._items) {

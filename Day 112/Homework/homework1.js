@@ -21,12 +21,11 @@ let user = {
     get password() {
         return "******"
     },
-    func: function changePassword(oldPass, newPass) {
+    changePassword: function(oldPass, newPass) {
         if(oldPass !== this._password) {
             return "You can't change"
         }
         else {
-            return "You can change"
             if(newPass.length < 6) {
                 return "The length of the new password must at least be 6"
             }
