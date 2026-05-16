@@ -40,6 +40,6 @@ let profile = {
     }
 }
 
-profile.username = "1234abcd"
+profile.username = "123abcd!@"
 console.log(profile.username)
 console.log(profile.length)

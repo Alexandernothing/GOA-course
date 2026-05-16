@@ -13,7 +13,6 @@ getter:
 let profile = {
     _username: "",
     set username(user) {
-        let upper = "QWERTYUIOPLKJHGFDSAZXCVBNM"
         if(user.toLocaleLowerCase() === user) {
             this._username = user
         }

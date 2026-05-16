@@ -17,3 +17,7 @@ function createCar(model, brand, year, color, mileage) {
 let car1 = createCar("Corolla", "Toyota", 2015, "red", 93000)
 let car2 = createCar("E=class", "Mercedes", 2008, "black", 40000)
 let car3 = createCar("B48 ", "BMW", 2017, "white", 60000)
+
+console.log(car1)
+console.log(car2)
+console.log(car3)
