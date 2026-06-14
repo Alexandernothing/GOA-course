@@ -11,8 +11,8 @@ function createBook(title, author, price) {
     }
 }
 
-let book1 = createBook("ვეფხისტყაოსანი", "შოთა რუსთაველი", 25);
-let book2 = createBook("გმირთა ვარამი", "ლევან გოთუა", 20);
+let book1 = createBook("ვეფხისტყაოსანი", "შოთა რუსთაველი", 25)
+let book2 = createBook("გმირთა ვარამი", "ლევან გოთუა", 20)
 
 book1.getInfo()
 book2.getInfo()
