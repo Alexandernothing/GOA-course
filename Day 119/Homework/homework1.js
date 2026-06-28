@@ -1,0 +1,3 @@
+// 1. კომენტარის სახით ახსენით dom რა არის. და რა განსხვავებაა getElementById, getElementsByTagName და getElementsByClassName.
+
+// dom არის html დოკუმენტის ობიექტური ვერსია. getElementById, getElementsByTagName და getElementsByClassName არიან სელექტორები. getElementById html ის დოკუმენტიდან იღებს ელემენტს და გადმოაგვს js ში id ის საშუალებით, getElementsByTagName კი თეგის სახელით, ხოლო getElementsByClassName კი კლასის სახელით

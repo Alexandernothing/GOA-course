@@ -6,8 +6,8 @@ let obj = {
     age: 14
 }
 
-let { name: Aleqsi, surname: Egutia, age: age } = obj
+let { name: Aleqsi, surname: Egutia, age: agee } = obj
 
-console.log(name)
-console.log(surname)
-console.log(age)
+console.log(Aleqsi)
+console.log(Egutia)
+console.log(agee)
