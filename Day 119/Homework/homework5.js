@@ -2,6 +2,4 @@
 
 let inputs = document.getElementsByClassName("form")
 
-for(let i of inputs) {
-    console.log(i)
-}
+console.log(inputs.length)
