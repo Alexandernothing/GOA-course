@@ -7,4 +7,3 @@ time_travel = input("please enter how many years into the future do you want to 
 total = int(age) + int(time_travel)
 
 print(name,", in that time you will be", total )
-      

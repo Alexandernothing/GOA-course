@@ -5,4 +5,4 @@ if wage > 10000:
 elif wage < 10000 and wage > 1000:
     print("you MID")
 else:
-    print("You should have entered GOA, matriciel ")
+    print("You should have entered GOA, matriciel")
