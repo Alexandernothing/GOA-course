@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(28, 28, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+main img {
+    width: 400px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 30px;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child1 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.child1 p {
+    color: rgb(173, 172, 172);
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child2 p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.color-parent {
+    display: flex;
+    gap: 15px;
+}
+
+.colors {
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.color1 {
+    background-color: black;
+}
+
+.color2 {
+    background-color: rgb(202, 61, 34);
+}
+
+.color3 {
+    background-color: rgb(86, 86, 129);
+}
+
+.color4 {
+    background-color: rgb(138, 83, 98);
+}
+
+.child3 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.child3 h3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.button1 {
+    background-color: rgb(237, 235, 235);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 3px;
+}
+
+.button2 {
+    background-color: rgb(237, 235, 235);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 3px;
+}
+
+.button3 {
+    background-color: rgb(255, 165, 0);
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
