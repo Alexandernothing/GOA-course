@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.card1 {
+    position: relative;
+}
+
+.card1-img, .card2-img {
+    width: 447px;
+    display: block;
+}
+
+.inside-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.circles {
+    width: 84px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 3.5px;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: 25.5px;
+}
+
+.name-date {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 200px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.card2 {
+    position: relative;
+    margin-left: 90px;
+}
+
+.card2 p {
+    position: absolute;
+    top: 111px;
+    right: 55px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.form-container {
+    width: 380px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #21092f;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #dfdee0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: inherit;
+    outline: none;
+}
+
+input::placeholder {
+    color: #dfdee0;
+}
+
+.last2 {
+    display: flex;
+    gap: 20px;
+}
+
+.last2 .field {
+    flex: 1;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.inputs input {
+    width: 50%;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #21092f;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formatLett {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.blankName {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.formatNum {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.blankNum {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.blankMM {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.formatMM {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.invalidMM {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.blankDate, .formatDate, .blankCvc, .formatCvc, .invalidCvc, .invalidNum, .formatYM, .formatMM, .formatZero {
+    color: red;
+    font-size: 14px;
+    display: none;
+}

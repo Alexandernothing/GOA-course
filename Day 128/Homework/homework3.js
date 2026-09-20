@@ -32,7 +32,7 @@ button.addEventListener("click", () => {
 
     para1.textContent = `Today is ${weekDays[weekDay]}`
 
-    if (weekDay === 0 || weekDay === 6) {
+    if(weekDay === 0 || weekDay === 6) {
         para2.textContent = "It's a weekend"
     }
     else {

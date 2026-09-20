@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+    <img class="background" src="images/bg-main-desktop.png" alt="">
+
+    <main>
+      <div class="cards">
+        <div class="card1">
+          <img class="card1-img" src="images/bg-card-front.png" alt="">
+          <div class="inside-card">
+            <img class="circles" src="images/card-logo.svg" alt="">
+            <h3>0000 0000 0000 0000</h3>
+            <div class="name-date">
+              <p class="para1">JANE APPLESEED</p>
+              <p class="para2"><span class="month">00</span>/<span class="year">00</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card2">
+          <img class="card2-img" src="images/bg-card-back.png" alt="">
+          <p class="para3">000</p>
+        </div> 
+      </div>
+
+      <div class="form-container">
+        <form>
+          <div class="field">
+            <label for="cardholder">CARDHOLDER NAME</label>
+            <input type="text" id="cardholder" placeholder="e.g. Jane Appleseed">
+            <span class="formatLett">Wrong format, letters only</span>
+            <span class="blankName">Can't be blank</span>
+          </div>
+
+          <div class="field">
+            <label for="cardnum">CARD NUMBER</label>
+            <input type="text" id="cardnum" placeholder="e.g. 1234 5678 9123 0000">
+            <span class="blankNum">Can't be blank</span>
+            <span class="formatNum">Wrong format, numbers only</span>
+            <span class="invalidNum">Wrong format, there should be 16 numbers</span>
+          </div>
+
+          <div class="last2">
+            <div class="field">
+              <label>EXP. DATE (MM/YY)</label>
+              <div class="inputs">
+                <input type="text" id="mm" placeholder="MM">
+                <input type="text" id="yy" placeholder="YY">
+              </div>
+              <span class="blankDate">Can't be blank</span>
+              <span class="formatDate">Wrong format, numbers only</span>
+              <span class="formatYM">Wrong format, there should be 2 numbers</span>
+              <span class="formatMM">Wrong format, there must be valid month(1-12)</span>
+              <span class="formatZero">Please add 0 at the start</span>
+            </div>
+
+            <div class="field">
+              <label for="cvc">CVC</label>
+              <input type="text" id="cvc" placeholder="e.g. 123">
+              <span class="blankCvc">Can't be blank</span>
+              <span class="formatCvc">Wrong format, numbers only</span>
+              <span class="invalidCvc"> Wrong format, there should be 3 numbers</span>
+            </div>
+          </div>
+          <button type="submit" id="button">Confirm</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

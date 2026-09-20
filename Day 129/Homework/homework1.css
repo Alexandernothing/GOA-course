@@ -39,12 +39,20 @@ main img {
 }
 
 .para1 {
-    position: relative;
-    right: 259px;
-    bottom: 5px;
+    position: absolute;
+    right: 37%;
+    bottom: 47%;
     color: white;
     font-size: 30px;
     font-weight: 600;
+}
+
+.heart {
+    width: 70px;
+    position: absolute;
+    right: 37%;
+    bottom: 30%;
+    display: none;
 }
 
 .parent {
