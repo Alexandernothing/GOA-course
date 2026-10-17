@@ -63,7 +63,6 @@ form.addEventListener("submit", (event) => {
         result = false
         formBox.nameB.style.outline = "2px solid red"
     } 
-
     else if(!hasNums) {
         nameError.textContent = "Input must contain at least one number(1234567890)"
         result = false
