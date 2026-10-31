@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(252, 248, 245);
+    font-family: "Red Hat Text", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 60px;
+}
+
+.big-parent {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    gap: 50px;
+}
+
+.grid-div {
+    padding-top: 20px;
+    display: grid;
+    width: 700px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.children {
+    position: relative;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+}
+
+.grid-imgs {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.children button {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    bottom: 70px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid hsl(14, 86%, 42%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.children span {
+    padding-top: 20px;
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.children p {
+    font-weight: 600;
+}
+
+.children h5 {
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+.items {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.items h1 {
+    color: hsl(14, 86%, 42%);
+}
+
+.items img {
+    width: 200px;
+    align-self: center;
+}
