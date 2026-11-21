@@ -32,6 +32,14 @@ products.forEach((i, index) => {
     })
 })
 
+function Overall() {
+    let total = 0
+    cart.forEach((item) => {
+        total += item.price * item.quantity
+    })
+    return total
+}
+
 function reorder() {
     cartItems.innerHTML = ""
     if(cart.length === 0) {
@@ -56,6 +64,10 @@ function reorder() {
         `    
     })
 
+    if(cart.length > 0) {
+        cartItems.innerHTML += `<h3>Overall price: $<span class="overall">${Overall()}</span></h3>`
+    }
+
     let cards = cartItems.querySelectorAll(".new-products")
     cards.forEach((item, i) => {
         let prod = cart[i]
@@ -69,6 +81,10 @@ function reorder() {
             prod.quantity++
             counting.textContent = prod.quantity
             totalPrice.textContent = `$${prod.quantity * prod.price}`
+            let overallAll = cartItems.querySelector(".overall")
+            if(overallAll) {
+                overallAll.textContent = Overall()
+            }
         })
 
         minus.addEventListener("click", () => {
@@ -76,6 +92,10 @@ function reorder() {
                 prod.quantity--
                 counting.textContent = prod.quantity
                 totalPrice.textContent = `$${prod.quantity * prod.price}`
+                let overallAll = cartItems.querySelector(".overall")
+                if(overallAll) {
+                    overallAll.textContent = Overall()
+                }
             }
         })
 
