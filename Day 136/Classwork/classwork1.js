@@ -1,0 +1,1 @@
+console.log("https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d%20%20%20---------->%20ვიმუშავეთ პროექტზე მოსწავლის ეკრანზე")
